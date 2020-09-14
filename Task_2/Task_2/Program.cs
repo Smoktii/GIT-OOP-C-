@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace Task_2
 {
@@ -7,8 +8,9 @@ namespace Task_2
         static void Main(string[] args)
         {
             /* Task 2*/
-            // Task 2
-            Console.WriteLine("Hello World!");
+            System.Console.OutputEncoding = System.Text.Encoding.UTF8;
+
+            Console.WriteLine("Привіт, ДонНУ");
         }
     }
 }

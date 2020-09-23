@@ -7,9 +7,16 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             System.Console.WriteLine("Привіт, ДонНУ!!!!!!!");
-            int c = 5; int v = 7;
+            int c = 5; 
+            int v = 7;
 
         }
+
+        static void Main_My(string[] args)
+        {
+            System.Console.WriteLine("Main_My - Привіт, ДонНУ!!!!!!!");
+        }
+
     }
 
     class Program_2

@@ -2,7 +2,7 @@
 
 namespace Example_Try_Catch
 {
-    class Program
+    class Example_Try_Catch_1
     {
         static void Main(string[] args)
         {

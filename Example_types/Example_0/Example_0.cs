@@ -2,7 +2,7 @@
 
 namespace Example_0
 {
-    class Program
+    class Example_0
     {
         static void Main(string[] args)
         {

@@ -5,15 +5,15 @@ VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example_types", "Example_types\Example_types.csproj", "{ECCD5619-4D96-4C45-A8B2-D6A245537887}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_Try_Catch", "Example_Try_Catch\Example_Try_Catch.csproj", "{AD81D40B-45F7-459E-8812-76ECA871A668}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example_Try_Catch_1", "Example_Try_Catch\Example_Try_Catch_1.csproj", "{AD81D40B-45F7-459E-8812-76ECA871A668}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_Try_Catch_2", "Example_Try_Catch_2\Example_Try_Catch_2.csproj", "{45847679-C6B7-4A32-8FC3-C81E51C53742}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example_Try_Catch_2", "Example_Try_Catch_2\Example_Try_Catch_2.csproj", "{45847679-C6B7-4A32-8FC3-C81E51C53742}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_Try_Catch_3", "Example_Try_Catch_3\Example_Try_Catch_3.csproj", "{B1B7D085-39CB-4685-AF2C-1A0C729896E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example_Try_Catch_3", "Example_Try_Catch_3\Example_Try_Catch_3.csproj", "{B1B7D085-39CB-4685-AF2C-1A0C729896E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_0", "Example_0\Example_0.csproj", "{373BB209-6643-4A44-BFCC-41024922B80D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example_0", "Example_0\Example_0.csproj", "{373BB209-6643-4A44-BFCC-41024922B80D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_Try_Catch_4_Stek", "Example_Try_Catch_4_Stek\Example_Try_Catch_4_Stek.csproj", "{B4BE03AF-D335-4379-A289-D35D6F30A9E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example_Try_Catch_4_Stek", "Example_Try_Catch_4_Stek\Example_Try_Catch_4_Stek.csproj", "{B4BE03AF-D335-4379-A289-D35D6F30A9E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

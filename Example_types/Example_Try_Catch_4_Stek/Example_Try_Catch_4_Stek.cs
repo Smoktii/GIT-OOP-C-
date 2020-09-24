@@ -2,7 +2,7 @@
 
 namespace Example_Try_Catch_4_Stek
 {
-    class Program
+    class Example_Try_Catch_4_Stek
     {
         static void Main(string[] args)
         {

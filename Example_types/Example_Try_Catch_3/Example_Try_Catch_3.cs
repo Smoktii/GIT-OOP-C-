@@ -2,7 +2,7 @@
 
 namespace Example_Try_Catch_3
 {
-    class Program
+    class Example_Try_Catch_3
     {
         static void Main(string[] args)
         {
@@ -63,7 +63,7 @@ namespace Example_Try_Catch_3
                 int x = 5;
                 int y = x / 1;
                 throw new DivideByZeroException();
-                // throw new Exception("Мій перший Exception");
+                //throw new Exception("Мій перший Exception");
                 // throw new ArgumentException("My text!");
                 // Console.WriteLine($"Результат: {y}");
             }

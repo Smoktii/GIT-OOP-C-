@@ -2,7 +2,7 @@
 
 namespace Example_types
 {
-    class Program
+    class Example_types
     {
         static void Main(string[] args)
         {

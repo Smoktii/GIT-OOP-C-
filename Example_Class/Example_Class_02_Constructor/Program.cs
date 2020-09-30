@@ -17,18 +17,7 @@ namespace Example_Class
         {
             Console.WriteLine($"ім'я: {name}  вік: {age}");
         }
-
-        public int SetAge(int a)
-        {
-            if (a >= 0)
-                age = a;
-            return 1;
-        }
-        public int GetAge()
-        {
-            return age;
-        }
-    }
+     }
     class Program
     {
         static void Main(string[] args)

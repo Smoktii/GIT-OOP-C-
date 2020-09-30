@@ -9,9 +9,11 @@ namespace Example_Class
 
         public Person() : this("Невідомо")
         {
+            Console.WriteLine($"In Person()");
         }
         public Person(string name) : this(name, 18)
         {
+            Console.WriteLine($"Person(string name)");
         }
         public Person(string name, int age)
         {
@@ -22,6 +24,7 @@ namespace Example_Class
             ********************************/
             this.name = name;
             this.age = age;
+            Console.WriteLine($"Person(string name, int age)");
         }
 
         public void GetInfo()

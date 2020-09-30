@@ -9,9 +9,11 @@ namespace Example_Class
 
         public Person() : this("Невідомо")
         {
+            Console.WriteLine($"In Person()");
         }
         public Person(string name) : this(name, 18)
         {
+            Console.WriteLine($"Person(string name)");
         }
         public Person(string name, int age)
         {
@@ -23,6 +25,7 @@ namespace Example_Class
             this.name = name;
             this.age = age;
             this.ShowThis();
+            Console.WriteLine($"Person(string name, int age)");
         }
 
         public void ShowThis()
@@ -35,16 +38,6 @@ namespace Example_Class
             Console.WriteLine($"ім'я: {name}  вік: {age}");
         }
 
-        public int SetAge(int a)
-        {
-            if (a >= 0)
-                age = a;
-            return 1;
-        }
-        public int GetAge()
-        {
-            return age;
-        }
     }
     class Program
     {

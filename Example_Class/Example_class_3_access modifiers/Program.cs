@@ -2,7 +2,7 @@
 
 namespace Example_class_3_access_modifiers
 {
-    public class MyExample
+     public class MyExample
     {
         // все одно, що private int defaultVar;
         int defaultVar;

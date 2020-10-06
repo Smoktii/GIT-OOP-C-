@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_Static_Field_01", "Example_Static\Example_Static_Field_01.csproj", "{F1A03787-1157-4BBF-BCB0-EB0B2D4DD9ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_Static_Methods_02", "Example_Static_Methods\Example_Static_Methods_02.csproj", "{ACB75542-EF9F-4C5B-91CB-943E7CA3E19D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1A03787-1157-4BBF-BCB0-EB0B2D4DD9ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1A03787-1157-4BBF-BCB0-EB0B2D4DD9ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1A03787-1157-4BBF-BCB0-EB0B2D4DD9ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1A03787-1157-4BBF-BCB0-EB0B2D4DD9ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACB75542-EF9F-4C5B-91CB-943E7CA3E19D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACB75542-EF9F-4C5B-91CB-943E7CA3E19D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACB75542-EF9F-4C5B-91CB-943E7CA3E19D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACB75542-EF9F-4C5B-91CB-943E7CA3E19D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A0F44BD-2C6E-4807-A737-D155DBC426C6}
+	EndGlobalSection
+EndGlobal

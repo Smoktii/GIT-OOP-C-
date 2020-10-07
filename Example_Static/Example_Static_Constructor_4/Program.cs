@@ -7,6 +7,7 @@ namespace Example_Static_Counter
         private static int counter = 0;
         public User()
         {
+            Console.WriteLine("Викликається звичайний конструктор public User()!");
             counter++;
         }
         static User()
@@ -33,7 +34,7 @@ namespace Example_Static_Counter
 
             Console.WriteLine($"Програма починає виконання");
 
-            // Console.WriteLine($"User.Counter = {User.Counter}"); // Викликається статичний конструктор!
+            Console.WriteLine($"User.Counter = {User.Counter}"); // Викликається статичний конструктор!
 
             Console.WriteLine($"Cтворення об'єкту user1");
             User user1 = new User();    // Викликається статичний конструктор!

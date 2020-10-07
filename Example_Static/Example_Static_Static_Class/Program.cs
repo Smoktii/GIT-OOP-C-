@@ -20,7 +20,7 @@ namespace Example_Static_Static_Class
             return result;
         }
         // ERROR: Автовластивості (не Static - тобто для кожного рахунка (об'єкта) - власні!)
-        // public decimal Sum { get; private set; }    // сума на рахунку
+        // public static decimal Sum { get; private set; }    // сума на рахунку
     }
 
     class Program

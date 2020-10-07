@@ -11,7 +11,7 @@ namespace Example_Applied_Aspects
 
             // The following example causes compiler error CS0220 because 2147483647
             // is the maximum value for integers.
-            // int i1 = 2147483647 + 10;
+            //int i1 = 2147483647 + 10;
 
             // The following example, which includes variable ten, does not cause
             // a compiler error.

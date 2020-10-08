@@ -4,8 +4,10 @@ namespace Example_Methods
 {
     class Program
     {
-        static void GetData(int x, int y, out int area, out int perim)
+        static void GetData(in int x, int y, out int area, out int perim)
         {
+            //x = x + 10; // не можна змінити значення параметра x
+            y = y + 10;
             area = x * y;
             perim = (x + y) * 2;
         }
@@ -18,11 +20,7 @@ namespace Example_Methods
             // Типовий варіант 1
             int area, perimetr;
             GetData(x, 15, out area, out perimetr);
-            Console.WriteLine($"1 варіант площа = {area}, периметр = {perimetr}"); // 150 50 
-
-            // Особливий варіант 2 (визначення змінних під час виклику функції)
-            GetData(7+3/1, 15, out int area_new, out int perimetr_new);
-            Console.WriteLine($"2 варіант площа = {area_new}, периметр = {perimetr_new}"); // 150 50 
+            Console.WriteLine($"площа (10x(15+10)) = {area}, периметр (10x(15+10)) = {perimetr}"); // 250 70 
 
             Console.ReadKey();
         }

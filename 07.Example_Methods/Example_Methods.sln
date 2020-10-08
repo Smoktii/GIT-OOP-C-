@@ -3,25 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Example_Methods_Param", "07.Example_Methods\01.Example_Methods_Param.csproj", "{59FC5900-5F06-4207-A74D-8D4E807AE4B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.Example_Methods_Param", "07.Example_Methods\01.Example_Methods_Param.csproj", "{59FC5900-5F06-4207-A74D-8D4E807AE4B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Example_Methods_Params_default", "02.Example_Methods\02.Example_Methods_Params_default.csproj", "{F86043B5-06F3-4E5E-BBDB-BBE5E13183FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.Example_Methods_Params_default", "02.Example_Methods\02.Example_Methods_Params_default.csproj", "{F86043B5-06F3-4E5E-BBDB-BBE5E13183FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Example_Methods_Params_Name", "ConsoleApp1\03.Example_Methods_Params_Name.csproj", "{5A380EA0-3ACE-4BFF-AEB7-AB71A2916B62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.Example_Methods_Params_Name", "ConsoleApp1\03.Example_Methods_Params_Name.csproj", "{5A380EA0-3ACE-4BFF-AEB7-AB71A2916B62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Example_Methods_Params_Transfer", "ConsoleApp2\04.Example_Methods_Params_Transfer.csproj", "{D6FA7719-294A-4343-8192-6A5DDA9F036F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.Example_Methods_Params_Transfer", "ConsoleApp2\04.Example_Methods_Params_Transfer.csproj", "{D6FA7719-294A-4343-8192-6A5DDA9F036F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.Example_Methods_Params_Out", "ConsoleApp3\05.Example_Methods_Params_Out.csproj", "{98E1741E-784A-4DCD-BBA7-F721ACFBB129}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.Example_Methods_Params_Out", "ConsoleApp3\05.Example_Methods_Params_Out.csproj", "{98E1741E-784A-4DCD-BBA7-F721ACFBB129}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.Example_Methods_Params_Out_Init", "ConsoleApp4\05.Example_Methods_Params_Out_Init.csproj", "{77FC6BE4-FDD4-4192-8EE3-8666107E2299}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.Example_Methods_Params_Out_Init", "ConsoleApp4\05.Example_Methods_Params_Out_Init.csproj", "{77FC6BE4-FDD4-4192-8EE3-8666107E2299}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.Example_Methods_Params_In", "ConsoleApp5\06.Example_Methods_Params_In.csproj", "{7BC4E1F6-90CE-456E-83A6-49E0ED130BE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.Example_Methods_Params", "07.Example_Methods_Params\07.Example_Methods_Params.csproj", "{C3C2E41B-BA05-4B82-B7A6-4BC62E9B4AFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.Example_Methods_Params", "07.Example_Methods_Params\07.Example_Methods_Params.csproj", "{C3C2E41B-BA05-4B82-B7A6-4BC62E9B4AFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.Example_Methods_Params_other", "08.Example_Methods_Params_other\08.Example_Methods_Params_other.csproj", "{5C387522-2503-4A64-9F15-0B9393512F4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.Example_Methods_Params_other", "08.Example_Methods_Params_other\08.Example_Methods_Params_other.csproj", "{5C387522-2503-4A64-9F15-0B9393512F4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09.Example_Methods_Params_array", "09.Example_Methods_Params_array\09.Example_Methods_Params_array.csproj", "{E9C6D45F-4386-4B9F-B629-A0DE12130DB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.Example_Methods_Params_array", "09.Example_Methods_Params_array\09.Example_Methods_Params_array.csproj", "{E9C6D45F-4386-4B9F-B629-A0DE12130DB2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.Example_Methods_Params_In", "06\06.Example_Methods_Params_In.csproj", "{94E0BB6C-7B26-4028-8289-C606FEB23A2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,10 +53,6 @@ Global
 		{77FC6BE4-FDD4-4192-8EE3-8666107E2299}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77FC6BE4-FDD4-4192-8EE3-8666107E2299}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77FC6BE4-FDD4-4192-8EE3-8666107E2299}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7BC4E1F6-90CE-456E-83A6-49E0ED130BE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7BC4E1F6-90CE-456E-83A6-49E0ED130BE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7BC4E1F6-90CE-456E-83A6-49E0ED130BE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7BC4E1F6-90CE-456E-83A6-49E0ED130BE7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C3C2E41B-BA05-4B82-B7A6-4BC62E9B4AFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C3C2E41B-BA05-4B82-B7A6-4BC62E9B4AFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3C2E41B-BA05-4B82-B7A6-4BC62E9B4AFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -69,6 +65,10 @@ Global
 		{E9C6D45F-4386-4B9F-B629-A0DE12130DB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9C6D45F-4386-4B9F-B629-A0DE12130DB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9C6D45F-4386-4B9F-B629-A0DE12130DB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94E0BB6C-7B26-4028-8289-C606FEB23A2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94E0BB6C-7B26-4028-8289-C606FEB23A2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94E0BB6C-7B26-4028-8289-C606FEB23A2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94E0BB6C-7B26-4028-8289-C606FEB23A2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

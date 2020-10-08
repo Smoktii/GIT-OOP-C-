@@ -6,10 +6,14 @@ namespace Example_Methods
     {
         static int Sum(int x, int y)
         {
-            return x + y;
+            int c = x + y;
+            x += 100;
+            y += 300;
+            return c;
         }
         static void Addition(ref int x, int y)
         {
+
             x += y;
         }
         static void Main(string[] args)
@@ -20,11 +24,11 @@ namespace Example_Methods
             int a = 10;
             int b = 15;
 
-            Console.WriteLine($"Sum(a, b) = {Sum(a, b)}");
+            Console.WriteLine($"Sum(a, b) = {Sum(a, b)}"); // 25
             Console.WriteLine($"a = {a}, b = {b}");
 
-            Addition(ref a, b); // вызов метода
-            Console.WriteLine($"Після Addition(ref a, b): a = {a}, b = {b}");
+            Addition(ref a, b); // визов метода
+            Console.WriteLine($"Після Addition(ref a, b): a = {a}, b = {b}"); // 25  15 
 
             Console.ReadKey();
         }

@@ -13,6 +13,7 @@ namespace Example_Methods
         {
             area = x * y;
             perim = (x + y) * 2;
+            return;
         }
         static void Main(string[] args)
         {
@@ -23,17 +24,17 @@ namespace Example_Methods
             int b = 15;
             int c = 0, result;
 
-            Console.WriteLine($"Початкові значення a = {a}, b = {b}, c = {c}");
+            Console.WriteLine($"Початкові значення a = {a}, b = {b}, c = {c}");  // 10 15 0
             result = Sum(a, 15, out c);
-            Console.WriteLine($"Sum(a, 15, out c) = {result}");
-            Console.WriteLine($"Після визову a = {a}, b = {b}, c = {c}");
+            Console.WriteLine($"Sum(a, 15, out c) = {result}");  // 1 
+            Console.WriteLine($"Після визову a = {a}, b = {b}, c = {c}"); // 10 15 25
 
             int x = 10;
             int area;
             int perimetr;
-            GetData(x, 15, out area, out perimetr);
-            Console.WriteLine("Площа (10x15) : " + area);
-            Console.WriteLine("Периметр (10x15) : " + perimetr);
+            GetData(x, 10+5, out area, out perimetr);
+            Console.WriteLine("Площа (10x15) : " + area);  // 150 
+            Console.WriteLine("Периметр (10x15) : " + perimetr);  // 50 
 
             Console.ReadKey();
         }

@@ -9,9 +9,9 @@ namespace Example_Methods
             System.Console.OutputEncoding = System.Text.Encoding.Unicode;
             System.Console.InputEncoding = System.Text.Encoding.Unicode;
 
-            int a;
+            int a=0;
             int b = 9;
-            // Sum(a, b);  // Помилка - змінної a не присвоєно значення
+            Sum(a, b);  // Помилка - змінної a не присвоєно значення
 
             Display("Tom", 24); // Name: Tom  Age: 24
             // Display(45, "Bob"); // Помилка! невідповідність значень типам параметрів

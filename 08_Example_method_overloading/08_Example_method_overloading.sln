@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Example_method_overloading", "08_Example_method_overloading\01_Example_method_overloading.csproj", "{2115EBD2-1F5A-4532-A907-B161F1ACF93D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Example_method_overloading_implicit", "02.Example_method_overloading_implicit\02.Example_method_overloading_implicit.csproj", "{60DABCC4-3120-4CE4-B29B-B13303BEAC55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Example_method_overloading_operator", "03_Example_method_overloading_operator\03_Example_method_overloading_operator.csproj", "{60B01122-F94F-41F8-9407-A1EEF32E1B1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2115EBD2-1F5A-4532-A907-B161F1ACF93D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2115EBD2-1F5A-4532-A907-B161F1ACF93D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2115EBD2-1F5A-4532-A907-B161F1ACF93D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2115EBD2-1F5A-4532-A907-B161F1ACF93D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60DABCC4-3120-4CE4-B29B-B13303BEAC55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60DABCC4-3120-4CE4-B29B-B13303BEAC55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60DABCC4-3120-4CE4-B29B-B13303BEAC55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60DABCC4-3120-4CE4-B29B-B13303BEAC55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60B01122-F94F-41F8-9407-A1EEF32E1B1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60B01122-F94F-41F8-9407-A1EEF32E1B1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60B01122-F94F-41F8-9407-A1EEF32E1B1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60B01122-F94F-41F8-9407-A1EEF32E1B1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B79295D-DF71-44E3-8306-70952BA55B09}
+	EndGlobalSection
+EndGlobal

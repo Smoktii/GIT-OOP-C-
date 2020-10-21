@@ -19,6 +19,7 @@ namespace _02.Example_method_overloading_implicit
         {
             return d.digit;
         }
+
         public static explicit operator Digit(byte b)
         {
             return new Digit(b);
@@ -36,7 +37,7 @@ namespace _02.Example_method_overloading_implicit
             System.Console.OutputEncoding = System.Text.Encoding.Unicode;
             System.Console.InputEncoding = System.Text.Encoding.Unicode;
 
-            var d = new Digit(7);
+            Digit d = new Digit(7);
 
             byte number = d;
             Console.WriteLine(number);  // output: 7

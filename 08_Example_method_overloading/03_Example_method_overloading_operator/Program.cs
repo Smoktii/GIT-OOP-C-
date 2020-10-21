@@ -19,6 +19,7 @@ namespace _03_Example_method_overloading_operator
         public ExampleCounter(int a)
         {
             MyValue = a;
+            // myValue = a;
         }
         public static ExampleCounter operator +(ExampleCounter c1, ExampleCounter c2)
         {
@@ -26,14 +27,18 @@ namespace _03_Example_method_overloading_operator
         }
         public static bool operator > (ExampleCounter c1, ExampleCounter c2)
         {
-            return c1.MyValue > c2.MyValue;
+            return (c1.MyValue > c2.MyValue);
         }
         // Спробувати закоментувати парний оператор
         public static bool operator < (ExampleCounter c1, ExampleCounter c2)
         {
-            return c1.MyValue < c2.MyValue;
+            return (c1.MyValue < c2.MyValue);
         }
-        public static int operator +(ExampleCounter c1, int val)
+        public static int operator +(ExampleCounter c1, int val) // operator+(ExampleCounter , int )
+        {
+            return c1.MyValue + val;
+        }
+        public static int operator +(int val, ExampleCounter c1) // operator+(int, ExampleCounter)
         {
             return c1.MyValue + val;
         }
@@ -82,12 +87,14 @@ namespace _03_Example_method_overloading_operator
             Console.WriteLine($"c3 = c1 + c2 = {c3.MyValue}"); // 21 + 37 = 58
 
             int myInt = c1 + 27; // 48
-            Console.WriteLine($"myInt = c1 + 27 = {myInt}"); // 48
+            int myInt2 = 27 + c1; // 48
+            Console.WriteLine($"myInt = c1 + 27 = {myInt}, myInt2 = 27 + c1 = {myInt2}"); // 48
 
             c2++;   // c2 = 37 + 100 = 137
             Console.WriteLine($"c2++ = {c2.MyValue}"); // 137
 
             c2--;   // c2 = 137 - 10 = 127
+            //c2 = c2--;
             Console.WriteLine($"c2-- = {c2.MyValue}"); // 127
 
             // При цьому нам не треба визначати окремо оператори для 

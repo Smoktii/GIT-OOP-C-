@@ -34,14 +34,14 @@ namespace _08_Example_method_overloading
         // Add(int, int, int, int)
 
         // ERROR
-        /*
-        public double Add(double a, double b)
+         /* public double Add(double a, double b)
         {
             double result = a + b;
             Console.WriteLine($"Result Add(double a, double b) is {result}");
             return result;
         } 
-        */
+        */ 
+
         public void Increment(ref int val) // Increment(ref int)
         {
             val++;

@@ -11,7 +11,7 @@ namespace _04._2_Example_Applied_Aspects_array_loop
             
             int[] numbers = new int[] { 10, 20, 30, 40, 50 };
             int count = 0;
-            Console.WriteLine($"Цікл foreach");
+            Console.WriteLine($"Цикл foreach");
             foreach (int i in numbers)
             {
                 count++;
@@ -20,7 +20,7 @@ namespace _04._2_Example_Applied_Aspects_array_loop
                 // i = i * i;
             }
 
-            Console.WriteLine($"Цікл for");
+            Console.WriteLine($"Цикл for");
             for (int i = 0; i < numbers.Length; i++)
             {
                 Console.WriteLine($"i = {i}, numbers[i] = {numbers[i]}");

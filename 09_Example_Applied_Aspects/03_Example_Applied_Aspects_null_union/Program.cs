@@ -15,7 +15,8 @@ namespace _01_Example_Applied_Aspects_null
             Console.WriteLine($"x = {x}");
             Console.WriteLine($"y = {y}");
 
-            y ??= 100;  // дорівнює 100, так як y дорівнює null
+            y ??= 100;  // дорівнює 100, так як y дорівнює null ?? 
+            // x = x ?? 200;
             Console.WriteLine($"y (100) = {y}");
 
             y ??= 500;  // дорівнює 100, так як y не дорівнює null

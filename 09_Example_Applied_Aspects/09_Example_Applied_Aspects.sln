@@ -9,21 +9,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_Example_Applied_Aspects_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_Example_Applied_Aspects_null_union", "03_Example_Applied_Aspects_null_union\03_Example_Applied_Aspects_null_union.csproj", "{2C53C5C2-2011-4055-A782-649DC3FAA5C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Example_Applied_Aspects_Indexers", "04_Example_Applied_Aspects_Indexers\04_Example_Applied_Aspects_Indexers.csproj", "{F23294F0-A00E-468B-8624-96405DA0F71A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_Example_Applied_Aspects_Indexers", "04_Example_Applied_Aspects_Indexers\04_Example_Applied_Aspects_Indexers.csproj", "{F23294F0-A00E-468B-8624-96405DA0F71A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Example_Applied_Aspects_Indexes_Associative_Array", "05_Example_Applied_Aspects_Indexes_Associative_Array\05_Example_Applied_Aspects_Indexes_Associative_Array.csproj", "{61EF834D-9907-426D-AFAE-CD0B8C34A90D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_Example_Applied_Aspects_Indexes_Associative_Array", "05_Example_Applied_Aspects_Indexes_Associative_Array\05_Example_Applied_Aspects_Indexes_Associative_Array.csproj", "{61EF834D-9907-426D-AFAE-CD0B8C34A90D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_Example_Applied_Aspects_Indexers_2", "06_Example_Applied_Aspects_Indexers_2\06_Example_Applied_Aspects_Indexers_2.csproj", "{5AFB4402-554D-4924-B854-CD0C033A5CA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_Example_Applied_Aspects_Indexers_2", "06_Example_Applied_Aspects_Indexers_2\06_Example_Applied_Aspects_Indexers_2.csproj", "{5AFB4402-554D-4924-B854-CD0C033A5CA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_Example_Applied_Aspects_Indexers_Get", "07_Example_Applied_Aspects_Indexers_Get\07_Example_Applied_Aspects_Indexers_Get.csproj", "{D6FE1BF3-2302-46FA-B8F7-D437DDF97F46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_Example_Applied_Aspects_Indexers_Get", "07_Example_Applied_Aspects_Indexers_Get\07_Example_Applied_Aspects_Indexers_Get.csproj", "{D6FE1BF3-2302-46FA-B8F7-D437DDF97F46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_Example_Applied_Aspects_Indexers_overload", "08_Example_Applied_Aspects_Indexers_overload\08_Example_Applied_Aspects_Indexers_overload.csproj", "{0293EE21-FDB0-4E23-8801-88B178B81BD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_Example_Applied_Aspects_Indexers_overload", "08_Example_Applied_Aspects_Indexers_overload\08_Example_Applied_Aspects_Indexers_overload.csproj", "{0293EE21-FDB0-4E23-8801-88B178B81BD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.1_Example_Applied_Aspects_array", "03.1_Example_Applied_Aspects_array\04.1_Example_Applied_Aspects_array.csproj", "{870652E2-0966-4D72-9C46-D6632FD9B3C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.1_Example_Applied_Aspects_array", "03.1_Example_Applied_Aspects_array\04.1_Example_Applied_Aspects_array.csproj", "{870652E2-0966-4D72-9C46-D6632FD9B3C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.2_Example_Applied_Aspects_array_loop", "04.2_Example_Applied_Aspects_array_loop\04.2_Example_Applied_Aspects_array_loop.csproj", "{2F84D3D4-500A-4B1D-A70D-180E07886100}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.2_Example_Applied_Aspects_array_loop", "04.2_Example_Applied_Aspects_array_loop\04.2_Example_Applied_Aspects_array_loop.csproj", "{2F84D3D4-500A-4B1D-A70D-180E07886100}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.3_Example_Applied_Aspects_array_loop_2", "04.3_Example_Applied_Aspects_array_loop_2\04.3_Example_Applied_Aspects_array_loop_2.csproj", "{475C1BE1-0F31-4281-B4D1-44DA68FBB975}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.3_Example_Applied_Aspects_array_loop_2", "04.3_Example_Applied_Aspects_array_loop_2\04.3_Example_Applied_Aspects_array_loop_2.csproj", "{475C1BE1-0F31-4281-B4D1-44DA68FBB975}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_Example_Applied_Aspects_enum", "09_Example_Applied_Aspects_enum\09_Example_Applied_Aspects_enum.csproj", "{FBDEBADF-0CCD-4F8B-A354-CCE9E81572F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_Example_Applied_Aspects_enum_example", "10_Example_Applied_Aspects_enum_example\10_Example_Applied_Aspects_enum_example.csproj", "{8EC3F263-DDBB-4D46-AA92-7BE171D11F4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +79,14 @@ Global
 		{475C1BE1-0F31-4281-B4D1-44DA68FBB975}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{475C1BE1-0F31-4281-B4D1-44DA68FBB975}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{475C1BE1-0F31-4281-B4D1-44DA68FBB975}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBDEBADF-0CCD-4F8B-A354-CCE9E81572F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBDEBADF-0CCD-4F8B-A354-CCE9E81572F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBDEBADF-0CCD-4F8B-A354-CCE9E81572F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBDEBADF-0CCD-4F8B-A354-CCE9E81572F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EC3F263-DDBB-4D46-AA92-7BE171D11F4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EC3F263-DDBB-4D46-AA92-7BE171D11F4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EC3F263-DDBB-4D46-AA92-7BE171D11F4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EC3F263-DDBB-4D46-AA92-7BE171D11F4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

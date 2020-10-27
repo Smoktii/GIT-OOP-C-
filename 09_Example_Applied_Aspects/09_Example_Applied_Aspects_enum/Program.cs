@@ -72,6 +72,10 @@ namespace _09_Example_Applied_Aspects_enum
             Console.WriteLine($"ver1 = {ver1}, ver2 = {ver2}"); // MyOperation.Subtract
             Console.WriteLine($"(int) ver1 = {(int) ver1}, (int) ver2 = {(int) ver2}"); // MyOperation.Subtract
 
+            MyOperationVer2 ver3; 
+            ver3 = (MyOperationVer2) 3; // Помилка такого значення не існує
+            Console.WriteLine($"ver3 = (MyOperationVer2)3 = {ver3}"); 
+
             Console.ReadKey();
         }
     }

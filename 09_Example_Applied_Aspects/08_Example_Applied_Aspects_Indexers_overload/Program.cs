@@ -55,11 +55,14 @@ namespace _08_Example_Applied_Aspects_Indexers_overload
             // Для ініціалізації об'єктів класів застосовується ініціалізатор
             people[0] = new Person { Name = "Tom" };
             people[1] = new Person { Name = "Bob" };
+            people[1].Age = 21;
 
             Console.WriteLine($"people[0].Name = {people[0].Name}"); // Tom
+            Console.WriteLine($"people[0].Age = {people[0].Age}"); // ?
             // Чому стоять одинарні лапки? 'Bob'
-            Console.WriteLine($"people['Bob'].Name = {people["Bob"].Name}"); // Bob 
- 
+            Console.WriteLine($"people['Bob'].Name = {people["Bob"].Name}, people['Bob'].Age = {people["Bob"].Age}"); // Bob 
+            Console.WriteLine($"people['Bob1'].Name = {people["Bob1"]?.Name}, people['Bob1'].Age = {people["Bob1"]?.Age}"); // Bob1 
+
             Console.ReadKey();
         }
     }

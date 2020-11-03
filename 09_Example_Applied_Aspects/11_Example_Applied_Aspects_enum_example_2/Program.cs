@@ -13,7 +13,7 @@ namespace _11_Example_Applied_Aspects_enum_example_2
         Friday = 0b_0001_0000,      // 16
         Saturday = 0b_0010_0000,    // 32
         Sunday = 0b_0100_0000,      // 64
-        Weekend = Saturday | Sunday
+        Weekend = Saturday | Sunday // 0b_0110_0000 = 32+64 = 96
     }
 
     public enum DaysNotFlags
@@ -40,6 +40,7 @@ namespace _11_Example_Applied_Aspects_enum_example_2
             // Output:
             // Monday, Wednesday, Friday
             Console.WriteLine($"meetingDays = Days.Monday | Days.Wednesday | Days.Friday = {meetingDays}");
+            Console.WriteLine($"(int) meetingDays = Days.Monday | Days.Wednesday | Days.Friday = {(int) meetingDays}");
 
             DaysNotFlags meetingDays1 = DaysNotFlags.Monday | DaysNotFlags.Wednesday | DaysNotFlags.Friday;
             // Output:
@@ -63,7 +64,7 @@ namespace _11_Example_Applied_Aspects_enum_example_2
             // Monday (1), Wednesday (4), Saturday (32)
 
             var a2 = (Days)138;
-            Console.WriteLine($"a = (Days)38 = {a2}");
+            Console.WriteLine($"a = (Days)138 = {a2}");
             // Output: 138
 
             // Використовуйте метод Enum.IsDefined, щоб визначити, чи містить тип перерахування 

@@ -32,6 +32,7 @@ namespace _07_Example_Delegate_Add_Union
             myListMessage2 += HowAreYou;
 
             Message resultDelegate = myListMessage1 + myListMessage2; // об'єднуємо делегати
+            resultDelegate += resultDelegate; // resultDelegate = resultDelegate + resultDelegate
 
             // викликаються всі методи з myListMessage1 і myListMessage2 (скільки?)
             resultDelegate();  

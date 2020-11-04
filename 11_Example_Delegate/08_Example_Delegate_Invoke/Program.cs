@@ -41,7 +41,7 @@ namespace _08_Example_Delegate_Invoke
 
             Message myListMessage1 = Hello;
             myListMessage1 += HowAreYou;
-            Console.WriteLine($"викликається myListMessage1() - Hello, HelloHowAreYou");
+            Console.WriteLine($"викликається myListMessage1() - Hello, HowAreYou");
             myListMessage1();
                         
             Operation myListOperation1 = Add;

@@ -7,7 +7,17 @@ namespace _10_Example_Delegate_Template
     {
         // Визначення узагальненого делегату з двома параметрами   
         delegate T Operation<T, K>(K val1, K val2);
-        
+        /*
+         * Operation<double, double> operationDouble ;
+         * delegate double Operation(double val1, double val2);
+         * 
+         * Operation<int, double> operation2;
+         * delegate int Operation(double val1, double val2);
+         * 
+          * Operation<int, char> operation3;
+         * delegate int Operation(char val1, char val2);        * 
+         */
+
         private static int Add(int x, int y)
         {
             Console.WriteLine($"Add = {x + y}");

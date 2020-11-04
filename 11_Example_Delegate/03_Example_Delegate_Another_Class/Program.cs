@@ -45,12 +45,12 @@ namespace _03_Example_Delegate_Another_Class
             // myOper = math.PrivateMultiply;
 
             // Чи буде працювати ?
-            // myOper = math.StaticMultiply;
+            // nmyOper = math.StaticMultiply;
 
             // Чи буде працювати ?
-            // myOper = Math.StaticMultiply;
+            myOper = Math.StaticMultiply;
 
-            result = myOper(40, 50); // ??
+            result = myOper(40, 50); // 40*50 = 2000
             Console.WriteLine($"result = MyOper(40, 50) => {result}");
 
             Console.ReadKey();

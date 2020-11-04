@@ -20,12 +20,18 @@ namespace _11_Example_Delegate
             return "Good Evening";
         }
 
+        private static void MyFunc()
+        {
+            Console.WriteLine("MyFunc");
+        }
+
         static void Main(string[] args)
         {
             System.Console.OutputEncoding = System.Text.Encoding.Unicode;
             System.Console.InputEncoding = System.Text.Encoding.Unicode;
             // 2. Створюємо змінну делегата
-            Message mes; 
+            Message mes;
+            // mes = MyFunc; 
             if (DateTime.Now.Hour < 12)
             {
                 // 3. Надаємо цієї змінної адресу методу

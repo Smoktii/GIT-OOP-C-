@@ -23,6 +23,7 @@ namespace _06_Example_Applied_Aspects_tuples_2
             // Можемо дати назви полям кортежу
             var tupleNameField = (count: 5, sum: 10);
             Console.WriteLine($"tupleNameField.count = {tupleNameField.count}"); // 5
+            Console.WriteLine($"tupleNameField.count = {tupleNameField.Item1}"); // 5
             Console.WriteLine($"tupleNameField.sum = {tupleNameField.sum}"); // 10
 
             Console.ReadKey();

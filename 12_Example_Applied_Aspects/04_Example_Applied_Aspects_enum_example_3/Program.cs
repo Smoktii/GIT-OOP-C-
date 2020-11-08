@@ -51,10 +51,11 @@ namespace _04_Example_Applied_Aspects_enum_example_3
 
             // Call IsDefined with combined value
             value = PetType.Dog | PetType.Bird;
-            Console.WriteLine("{0:D}: {1}", value, Enum.IsDefined(typeof(PetType), value));
-            //       9: False
+            Console.WriteLine("{0:D}, {0}: {1}", value, Enum.IsDefined(typeof(PetType), value));
+            //       9, Dog, Bird: False
 
             value = value.ToString();
+            // value = "Dog, Bird"
             Console.WriteLine("{0:D}: {1}", value, Enum.IsDefined(typeof(PetType), value));
             //       Dog, Bird: False
 

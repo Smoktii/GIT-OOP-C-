@@ -27,7 +27,7 @@ namespace _09_Example_Applied_Aspects_Struct_Limits
 
         // 2. Не можемо ініціалізувати поле екземпляра або властивість 
         // при його оголошенні
-        // public int ageError = 20;
+        //public int ageError = 20;
 
         // однак можна ініціалізувати статичне поле або поле константи при її оголошенні
         const int g = 10;

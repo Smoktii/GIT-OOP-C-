@@ -33,6 +33,7 @@ namespace _07_Example_Applied_Aspects_tuples_3
             var tuple = GetValues();
             Console.WriteLine($"tuple.Item1 = {tuple.Item1}"); // 1
             Console.WriteLine($"tuple.Item2 = {tuple.Item2}"); // 3
+            // Console.WriteLine($"tuple.Item2 = {tuple.Item3}"); 
 
             var tuple2 = GetNamedValues(new int[] { 1, 2, 3, 4, 5, 6, 7 });
             Console.WriteLine($"tuple2.count = {tuple2.count}");

@@ -29,7 +29,7 @@ namespace _10_Example_Applied_Aspects_Struct_features
             System.Console.InputEncoding = System.Text.Encoding.Unicode;
 
             // Визначаємо екземпляр структури User без використання конструктора
-            User tom;
+            User tom = new User();
             // Помилка: Використання локальної змінної "tom", якої не присвоєно значення. 
             // int x = tom.age;   
             // Помилка:

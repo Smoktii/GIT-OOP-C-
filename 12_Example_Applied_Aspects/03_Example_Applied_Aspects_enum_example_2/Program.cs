@@ -5,15 +5,15 @@ namespace _03_Example_Applied_Aspects_enum_example_2
     [Flags]
     public enum Days
     {
-        None = 0b_0000_0000,        // 0
-        Monday = 0b_0000_0001,      // 1
-        Tuesday = 0b_0000_0010,     // 2
+        None =      0b_0000_0000,        // 0
+        Monday =    0b_0000_0001,      // 1
+        Tuesday =   0b_0000_0010,     // 2
         Wednesday = 0b_0000_0100,   // 4
-        Thursday = 0b_0000_1000,    // 8
-        Friday = 0b_0001_0000,      // 16
-        Saturday = 0b_0010_0000,    // 32
-        Sunday = 0b_0100_0000,      // 64
-        Weekend = Saturday | Sunday // 0b_0110_0000 = 32+64 = 96
+        Thursday =  0b_0000_1000,    // 8
+        Friday =    0b_0001_0000,      // 16
+        Saturday =  0b_0010_0000,    // 32
+        Sunday =    0b_0100_0000,      // 64
+        Weekend = Saturday | Sunday //  0b_0110_0000 = 32+64 = 96
     }
 
     public enum DaysNotFlags
@@ -48,7 +48,8 @@ namespace _03_Example_Applied_Aspects_enum_example_2
             Console.WriteLine($"meetingDays1 = DaysNotFlags.Monday | DaysNotFlags.Wednesday | DaysNotFlags.Friday = {meetingDays1}");
 
             Days workingFromHomeDays = Days.Thursday | Days.Friday;
-            Console.WriteLine($"Join a meeting by phone on {meetingDays & workingFromHomeDays}");
+            Console.WriteLine($"Join a meeting by phone on {meetingDays & workingFromHomeDays}"); // Days.Friday
+            Console.WriteLine($"Join a meeting by phone on {meetingDays | workingFromHomeDays}"); // Days.Monday, Days.Wednesday, Days.Friday, Days.Thursday
             // Output:
             // Join a meeting by phone on Friday
 
@@ -72,6 +73,8 @@ namespace _03_Example_Applied_Aspects_enum_example_2
             Console.WriteLine($"Enum.IsDefined(typeof(Days), 138) = {Enum.IsDefined(typeof(Days), 138)}");
             Console.WriteLine($"Enum.IsDefined(typeof(Days), 4) = {Enum.IsDefined(typeof(Days), 4)}");
             Console.WriteLine($"Enum.IsDefined(typeof(Days), 3) = {Enum.IsDefined(typeof(Days), 3)}");
+            Console.WriteLine($"Enum.IsDefined(typeof(DaysNotFlags), 3) = {Enum.IsDefined(typeof(DaysNotFlags), 3)}");
+            Console.WriteLine($"Enum.IsDefined(typeof(DaysNotFlags), 4) = {Enum.IsDefined(typeof(DaysNotFlags), 4)}");
 
             Console.ReadKey();
         }

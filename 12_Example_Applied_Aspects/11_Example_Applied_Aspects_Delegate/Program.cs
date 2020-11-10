@@ -5,7 +5,7 @@ namespace _11_Example_Applied_Aspects_Delegate
     // Визначимо клас, що описує рахунок в банку
     class Account
     {
-        int _sum; // Переменная для хранения суммы
+        int _sum; // Змінна для зберігання суми
 
         // Конструктор
         public Account(int sum)

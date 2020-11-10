@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>_07_Example_Applied_Aspects_Indexers_Get</RootNamespace>
+    <RootNamespace>_12_Example_Inheritance_01</RootNamespace>
   </PropertyGroup>
 
 </Project>

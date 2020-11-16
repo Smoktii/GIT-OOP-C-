@@ -34,7 +34,7 @@ namespace _12_Example_Inheritance_01
         // Перевизначення (перегрузка-переопределение)
         public override string ToString()
         {
-            return "Name = " + Name + ", Salary = " + Salary;
+            return "ToString(): Name = " + Name + ", Salary = " + Salary;
         }
         // перевантаження ToString
         public string ToString(double SalaryParam)

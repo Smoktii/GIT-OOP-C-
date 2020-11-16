@@ -35,16 +35,18 @@ namespace _12_Example_Inheritance_01
         {
             System.Console.OutputEncoding = System.Text.Encoding.Unicode;
             System.Console.InputEncoding = System.Text.Encoding.Unicode;
- 
+
             Person p = new Person { Name = "Tom" };
+            //Person p = new Person();
+            // p.Name = "Tom";
             p.Display();
             Console.WriteLine($"Type of 'p': {p.GetType()}");
 
             Employee e = new Employee { Name = "Tom_Employee", Salary = 10000.00 };
             e.DisplayEmployee();
             // Можливо визвати метод Display()?
-            // Console.WriteLine($"Перевірка визову е.Display() для Tom_Employee");
-            // e.Display();
+            Console.WriteLine($"Перевірка визову е.Display() для Tom_Employee");
+            e.Display();
            
             Console.WriteLine($"Type of 'e': {e.GetType()}");
             Console.WriteLine($"e.Salary = {e.Salary}");
@@ -52,6 +54,7 @@ namespace _12_Example_Inheritance_01
             // Об'єкт класу Employee є Об'єктом класу Person (згідно наслудівання) 
             p = new Employee { Name = "Sam", Salary = 15000.00 };
             p.Display();
+            
             Console.WriteLine($"p = new Employee...  p.ToString() = {p.ToString()}");
 
             // Можливо визвати метод DisplayEmployee()?

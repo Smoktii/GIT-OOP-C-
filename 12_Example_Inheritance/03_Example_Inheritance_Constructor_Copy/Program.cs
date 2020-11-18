@@ -73,6 +73,7 @@ namespace _12_Example_Inheritance_01
             
             Employee e4 = e1 + e2 + e3;
             Console.WriteLine($"e4 = e1 + e2 + e3 = {e4.ToString()}");
+            Console.WriteLine($"e4 = e1 + e2 + e3 = {e4}");
 
             EmpoyeeChild ec1 = new EmpoyeeChild { Name = "Tom_Child" };
             EmpoyeeChild ec2 = new EmpoyeeChild();
@@ -84,7 +85,7 @@ namespace _12_Example_Inheritance_01
 
             Console.WriteLine($"ec1 = {ec1.ToString()}");
             Console.WriteLine($"ec2 = {ec2.ToString()}");
-            Console.WriteLine($"ec4 = ec1 + ec2 = {ec3.ToString()}");
+            Console.WriteLine($"ec3 = ec1 + ec2 = {ec3.ToString()}");
 
             Console.ReadKey();
         }

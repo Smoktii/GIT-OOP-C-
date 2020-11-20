@@ -46,13 +46,14 @@ namespace _09_Example_Inheritance_casting_virtual
             System.Console.InputEncoding = System.Text.Encoding.Unicode;
 
             Person p1 = new Person("Bill");
+            // Person p1 = new Person { Name = "Bill" };
             p1.Display(); // виклик методу Display з класу Person
 
             Employee p2 = new Employee("Tom", "Microsoft");
             p2.Display(); // виклик методу Display з класу Person
 
             SuperEmployee p3 = new SuperEmployee("Jack", "Google");
-            p2.Display(); // виклик методу Display з класу SuperEmployee
+            p3.Display(); // виклик методу Display з класу SuperEmployee
 
             Console.ReadKey();
         }

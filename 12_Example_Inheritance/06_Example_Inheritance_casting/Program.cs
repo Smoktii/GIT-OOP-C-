@@ -110,14 +110,18 @@ namespace _06_Example_Inheritance_casting
             // перетворення від типу Person до Client
             Client client = (Client)personClient;
 
+            // Person myPerson1 = new Person("Василь");
+            // Client myclient1 = (Client)myPerson1;
+
             Console.WriteLine($"obj.GetType() = {obj.GetType()}");
             // перетворення до типу Person для виклику методу ToString
             Console.WriteLine($" ((Person)obj).ToString() = {((Person)obj).ToString()}");
             // перетворення до типу Employee для виклику методу ToString
             Console.WriteLine($" ((Employee)obj).ToString() = {((Employee)obj).ToString()}");
+            Console.WriteLine($" obj.ToString() = {obj.ToString()}");
 
             // Помилка. Чому? 
-            // Console.WriteLine($" ((Person)obj).Company = {((Person)obj).Company}");
+            //Console.WriteLine($" ((Person)obj).Company = {((Person)obj).Company}");
 
             // Все ОК
             Console.WriteLine($" ((Employee)obj).Company = {((Employee)obj).Company}");

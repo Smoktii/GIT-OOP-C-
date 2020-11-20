@@ -50,6 +50,7 @@ namespace _10_Example_Inheritance_casting_virtual_02
 
             Credit credit3 = new LongCredit { Sum = 8000 };
             credit3.Sum = 790;
+            Console.WriteLine($"credit3.Sum = {credit3.GetType()}");
             Console.WriteLine($"credit3.Sum = {credit3.Sum}");
             // Чому буде 8000?
 

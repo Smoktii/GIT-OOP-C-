@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Example_Applied_Aspects_Anonymous_Method", "01_Example_Applied_Aspects_Anonymous_Method\01_Example_Applied_Aspects_Anonymous_Method.csproj", "{A61B7FF9-CBD8-4474-9DBC-D77E20B34746}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Example_Applied_Aspects_Anonymous_Method_02", "02_Example_Applied_Aspects_Anonymous_Method_02\02_Example_Applied_Aspects_Anonymous_Method_02.csproj", "{15B6CB9A-D1D5-4FE0-A0B1-318F3A8DE84B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Example_Applied_Aspects_Anonymous_Method_03", "03_Example_Applied_Aspects_Anonymous_Method_03\03_Example_Applied_Aspects_Anonymous_Method_03.csproj", "{AA2B66FC-8132-4239-B032-56CF68B364C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Example_Applied_Aspects_lambda", "04_Example_Applied_Aspects_lambda\04_Example_Applied_Aspects_lambda.csproj", "{F24731BF-FCF0-4E6E-9C96-468339B2EB4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Example_Applied_Aspects_lambda_02", "05_Example_Applied_Aspects_lambda_02\05_Example_Applied_Aspects_lambda_02.csproj", "{E481E46D-10BA-424C-8998-A6197CEC7B48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A61B7FF9-CBD8-4474-9DBC-D77E20B34746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A61B7FF9-CBD8-4474-9DBC-D77E20B34746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A61B7FF9-CBD8-4474-9DBC-D77E20B34746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A61B7FF9-CBD8-4474-9DBC-D77E20B34746}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15B6CB9A-D1D5-4FE0-A0B1-318F3A8DE84B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15B6CB9A-D1D5-4FE0-A0B1-318F3A8DE84B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15B6CB9A-D1D5-4FE0-A0B1-318F3A8DE84B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15B6CB9A-D1D5-4FE0-A0B1-318F3A8DE84B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA2B66FC-8132-4239-B032-56CF68B364C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA2B66FC-8132-4239-B032-56CF68B364C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA2B66FC-8132-4239-B032-56CF68B364C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA2B66FC-8132-4239-B032-56CF68B364C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F24731BF-FCF0-4E6E-9C96-468339B2EB4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F24731BF-FCF0-4E6E-9C96-468339B2EB4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F24731BF-FCF0-4E6E-9C96-468339B2EB4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F24731BF-FCF0-4E6E-9C96-468339B2EB4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E481E46D-10BA-424C-8998-A6197CEC7B48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E481E46D-10BA-424C-8998-A6197CEC7B48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E481E46D-10BA-424C-8998-A6197CEC7B48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E481E46D-10BA-424C-8998-A6197CEC7B48}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0FA069BF-0C37-4010-828A-7B1D9E0EC458}
+	EndGlobalSection
+EndGlobal

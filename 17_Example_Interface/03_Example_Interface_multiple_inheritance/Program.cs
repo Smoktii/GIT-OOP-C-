@@ -49,7 +49,7 @@ namespace _03_Example_Interface_multiple_inheritance
             Console.WriteLine($"client.CurrentSum = {client.CurrentSum}"); //130
 
             // Всі об'єкти Client є об'єктами IAccount 
-            IAccount account = new Client("Том", 200);
+            IAccount account = new Client("Том2", 200);
             account.Put(200);
             Console.WriteLine($"account.CurrentSum = {account.CurrentSum}"); // 400
 
@@ -59,6 +59,7 @@ namespace _03_Example_Interface_multiple_inheritance
             // Інтерфейс IAccount не має властивості Name, 
             // необхідно явне приведення
             string clientName = ((Client)account).Name;
+            Console.WriteLine($"clientName = {clientName}"); 
 
             Console.ReadKey();
         }

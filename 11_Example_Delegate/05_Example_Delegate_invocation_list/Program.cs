@@ -22,7 +22,8 @@ namespace _05_Example_Delegate_invocation_list
 
             // Створюємо змінну делегата
             Message myListMessage = Hello; // делегат вказує на метод Hello
-            myListMessage += HowAreYou;  // тепер делегат myListMassage вказує на два метода
+            myListMessage = HowAreYou;  // тепер делегат myListMassage вказує на два метода
+            myListMessage -= HowAreYou;
             myListMessage(); // викликаються обидва методи - Hello і HowAreYou
 
             Console.ReadKey();

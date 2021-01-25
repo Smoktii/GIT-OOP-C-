@@ -86,7 +86,7 @@ namespace _14_Example_Inheritance_abstract_class
     }
     // Спроба визначити абстрактний метод в неабстрактному класі
     // призведе до помилки
-    /* class Human
+    /*class Human
     {
         public string Name { get; set; }
         public abstract void Display();

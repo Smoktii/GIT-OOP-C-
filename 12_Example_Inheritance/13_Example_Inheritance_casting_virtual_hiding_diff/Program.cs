@@ -71,6 +71,7 @@ namespace _13_Example_Inheritance_casting_virtual_hiding_diff
 
             EmployeeSealed emp = new EmployeeSealed("Bill", "Unnoun");
             tom.DisplaySealed();     // Tom працює в Microsoft
+            emp.DisplaySealed();     // DisplayForHiding in EmployeeSealed
 
             Console.ReadKey();
         }

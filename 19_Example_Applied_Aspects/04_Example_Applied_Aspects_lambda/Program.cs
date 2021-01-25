@@ -26,7 +26,7 @@ namespace _04_Example_Applied_Aspects_lambda
             Console.WriteLine($"operationLambda(40, 20) = {operationLambda(40, 20)}"); // 60
 
             Console.WriteLine($"operation(10, 20) = {operation(10, 20)}"); // 30
-            Console.WriteLine($"operation(10, 20) = {operation(40, 20)}"); // 60
+            Console.WriteLine($"operation(40, 20) = {operation(40, 20)}"); // 60
 
             Console.ReadKey();
         }

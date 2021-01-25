@@ -25,8 +25,13 @@ namespace _03_Example_Applied_Aspects_Anonymous_Method_03
             {
                 return x + y + z;
             };
+
             int result = operation2(4, 5);
             Console.WriteLine($"result = {result}"); // 9 + 8 = 17
+
+            z = 20;
+            result = operation2(4, 5);
+            Console.WriteLine($"result = {result}"); // 9 + 20 = 29
 
             Console.ReadKey();
         }
